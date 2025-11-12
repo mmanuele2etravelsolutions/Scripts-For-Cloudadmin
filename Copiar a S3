@@ -1,0 +1,8 @@
+Copiar a S3
+
+https://NAMES3.s3.amazonaws.com/admin.zip
+
+aws s3 cp miarchivo.zip s3://NAMES3/
+aws s3 cp miarchivo.zip s3://NAMES3/
+aws s3 cp s3://NAMES3/miarchivo.zip ./
+aws s3 cp s3://NAMES3/miarchivo.zip ./
